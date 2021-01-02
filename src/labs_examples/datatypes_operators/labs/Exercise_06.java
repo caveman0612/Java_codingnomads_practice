@@ -11,7 +11,14 @@ package labs_examples.datatypes_operators.labs;
 public class Exercise_06 {
 
     public static void main(String[] args) {
+        double height = 5;
+        double radius = 3.14;
+        double radiusSquared = radius * radius;
 
+
+        double volume;
+        volume = radiusSquared * height;
+        System.out.println(volume);
         // write code here
 
     }

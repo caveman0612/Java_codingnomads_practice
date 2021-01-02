@@ -22,6 +22,14 @@ package labs_examples.datatypes_operators.labs;
 public class Exercise_02 {
 
     public static void main(String[] args) {
+        int i = 10;
+        double d = i;
+
+        System.out.println(d);
+
+        double D = 10.5;
+        int I = (int) D;
+        System.out.println(I);
 
         // write code here
 
