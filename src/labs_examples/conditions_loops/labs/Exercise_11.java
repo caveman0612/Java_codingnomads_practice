@@ -22,5 +22,14 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_11 {
+    public static void main(String[] args) {
+        for (int upper = 1; upper <= 10;upper++) {
+
+            for (int lower = 1; lower <= 10; lower++) {
+                System.out.print(upper * lower);
+            }
+            System.out.println("|");
+        }
+    }
 
 }
