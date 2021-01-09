@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.util.Arrays;
+
 /**
  *  2D Array
  *
@@ -18,6 +20,25 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
+
+        int twoDArray[][] = new int[5][5];
+        int multipleOf3 = 0;
+        for (int i = 0; i < twoDArray.length; i++){
+            for(int j=0; j < twoDArray[i].length; j++){
+                twoDArray[i][j] = multipleOf3 += 3;
+            }
+        }
+
+//        System.out.println(Arrays.deepToString(twoDArray));
+
+
+        for(int[] rows : twoDArray){
+            for (int columns : rows){
+                System.out.print(columns + "|");
+            }
+            System.out.println();
+        }
+
         
     }
 }

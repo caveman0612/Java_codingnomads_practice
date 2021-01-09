@@ -1,4 +1,6 @@
 package labs_examples.arrays.labs;
+import java.util.ArrayList;
+
 
 /**
  *  ArrayLists
@@ -10,4 +12,14 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main(String[] args) {
+        ArrayList<int> letters = new ArrayList<int>();
+        letters.add(0,11);
+        letters.add(1,22);
+        letters.add(2,33);
+        letters.add(3,44);
+
+        letters.
+
+    }
 }
